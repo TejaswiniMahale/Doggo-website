@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import {Link} from "react-router-dom"
 
 import axios from 'axios'
 import {
@@ -15,8 +16,6 @@ import {
   Heading,
   Text,
   useColorModeValue,
-  Link,
-  Toast,
   useToast,
 } from '@chakra-ui/react';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
@@ -50,7 +49,7 @@ const Register = () => {
             position:"top"
           })
           console.log('data submitted succefully')
-          navigate('/login')
+          navigate('/')
         })
         .catch((e)=>{
           console.log(e,"error")
@@ -141,7 +140,7 @@ const Register = () => {
           </Stack>
           <Stack pt={6}>
             <Text align={'center'}>
-              Already a user? <Link color={'blue.400'}>Login</Link>
+              Already a user? <span><Link to={'/'} ><Text color={'blue.400'}>Login</Text></Link></span>
             </Text>
           </Stack>
         </Stack>

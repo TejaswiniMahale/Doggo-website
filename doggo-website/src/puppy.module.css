@@ -1,0 +1,58 @@
+.homepage{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 80px;
+    gap: 20px;
+    background-color: rgba(224, 224, 224, 0.267);
+}
+.homepage>div{
+    margin: auto;
+    width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: ease-in-out 0.5s;
+}
+.homepage>div:hover{
+    transform: scale(1.1);
+}
+.puppyPage{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding-top: 20px !important;
+    padding: 50px;
+    text-align: center;
+    width: 80%;
+}
+.puppyPage>div>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+}
+.puppyPage>div>img:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #082a4a;
+
+}
+.navbar>p{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.navbar_element:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}

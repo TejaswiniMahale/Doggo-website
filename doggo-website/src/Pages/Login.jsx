@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from "axios"
-import {useNavigate} from "react-router-dom"
+import {useNavigate,Link} from "react-router-dom"
 import {
   Flex,
   Box,
@@ -9,7 +9,6 @@ import {
   Input,
   Checkbox,
   Stack,
-  Link,
   Button,
   Heading,
   Text,
@@ -106,7 +105,7 @@ const Login = () => {
               align={'start'}
               justify={'space-between'}>
               <Checkbox>Remember me</Checkbox>
-              <Link color={'blue.400'}>Forgot password?</Link>
+              <Link to={'/register'}><Text color={'blue.400'}>Signup</Text></Link>
             </Stack>
             <Button
               bg={'blue.400'}
