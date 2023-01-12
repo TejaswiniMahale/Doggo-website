@@ -1,0 +1,46 @@
+{
+  "sign-up-data": [
+    {
+      "name": "teju",
+      "email": "ca@gmail.com",
+      "phone": "07517229308",
+      "password": "ghuyvuy",
+      "id": 1
+    },
+    {
+      "name": "teju",
+      "email": "ca@gmail.com",
+      "phone": "07517229308",
+      "password": "ghuyvuy",
+      "id": 2
+    },
+    {
+      "name": "Tejaswini Tejaswini",
+      "email": "tejaswinimahale11@gmail.com",
+      "phone": "07517229308",
+      "password": "Teju123@",
+      "id": 3
+    },
+    {
+      "name": "Tejaswini Tejaswini",
+      "email": "tejaswinimahale11@gmail.com",
+      "phone": "07517229308",
+      "password": "Teju123@",
+      "id": 4
+    },
+    {
+      "name": "Tejaswini Tejaswini",
+      "email": "tejaswinimahale11@gmail.com",
+      "phone": "07517229308",
+      "password": "Teju123@",
+      "id": 5
+    },
+    {
+      "name": "Tejaswini Tejaswini",
+      "email": "tejaswinimahale11@gmail.com",
+      "phone": "07517229308",
+      "password": "dcdcdc",
+      "id": 6
+    }
+  ]
+}
